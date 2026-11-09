@@ -1,0 +1,12 @@
+# Versions confirmed in the analysis environment (Python 3.11.4)
+numpy==1.26.4
+pandas==2.3.0
+
+# Versions not yet confirmed. Replace each with the version in
+# requirements-lock.txt (pip freeze) before the release.
+duckdb
+matplotlib
+openpyxl        # writing .xlsx tables (steps 08, 09, 11, 13)
+
+# Optional: memory figures in benchmark_stepN.csv
+psutil
